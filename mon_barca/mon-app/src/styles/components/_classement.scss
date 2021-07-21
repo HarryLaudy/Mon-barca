@@ -1,0 +1,79 @@
+  
+  .table-liga {
+      table {
+        width: 55%;
+          table-layout: fixed;
+          border-collapse: collapse;
+          border: 3px solid gold;
+          background-color: whitesmoke;
+          box-shadow: black 5px solid;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          box-shadow: 0 0 0 1px rgba($color: #000000, $alpha: 0.4);
+      }  
+  
+      caption {
+          padding-bottom: 20px;
+      }
+  
+        thead th:nth-child(1) {
+          width: 20%;
+        }
+  
+        thead th:nth-child(2) {
+          width: 20%;
+        }
+  
+        thead th:nth-child(3) {
+          width: 10%;
+        }
+  
+        thead th:nth-child(4) {
+          width: 10%;
+        }
+  
+        thead th:nth-child(5) {
+          width: 10%;
+        }
+  
+        thead th:nth-child(6) {
+          width: 10%;
+        }
+  
+        thead th:nth-child(7) {
+          width: 10%;
+        }
+  
+        thead th:nth-child(8) {
+          width: 10%;
+        }
+  
+        thead th:nth-child(9) {
+          width: 10%;
+        }
+  
+        thead th:nth-child(10) {
+          width: 10%;
+        }
+  
+        tr {
+          border: 2px gold solid;
+        }
+  
+        th, td {
+          padding: 5px;
+          text-align: center;
+        }
+  
+  tr td:nth-child(2) {
+    display: flex;
+  }
+  
+  tr td:nth-child(2) span{
+    align-self: center;
+    padding-left: 6px;
+  }
+  
+  .logo-classement {
+    width: 45%;
+  }
+}
